@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    max-width: 900px;
+    margin: 8rem auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.firstSection{
+    background-color: #fff;
+    /* border: .1px solid gainsboro; */
+    width: 400px;
+    height: 480px;
+    margin-top: 35px;
+    z-index: 4;
+    margin-right: -60px;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+    box-shadow: 0px 10px 8px grey;
+}
+
+.createaccount{
+    margin-top: 16px;
+}
+
+.createaccount>h1{
+    padding-left: 5.5rem;
+    color: #e77574;
+}
+
+.linksection{
+    display: flex;
+    width: 190px;
+    height: 45px;
+    margin-left: 5.5rem;
+    padding-top: 1rem;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.link{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstSection>p{
+    padding-left: 4.5rem;
+    color: #5d555d;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.formSection{
+    padding-left: 5.5rem;
+    padding-top: 2rem;
+}
+
+.inputcontainer{
+    margin-bottom: 15px;
+}
+
+input{
+    padding-block: .4rem;
+    border: none;
+    background-color: rgb(243 245 244);
+}
+
+input::placeholder{
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+button{
+    width: 182px;
+    height: 51px;
+    /* background: linear-gradient(180deg, #b37baa 0% , #1a1e3b 90%); */
+    padding-block: .8rem;
+    border-radius: 50px;
+    border: none;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: 5450;
+    font-size: 20px;
+}
+
+.button1{
+    background: linear-gradient(90deg, #afbbd1 30% , #cf9a9c 70%);
+    margin-left: 6rem;
+    box-shadow: 2px #000;
+    box-shadow: 0px 2px 5px #000;
+    width: 200px;
+    height: 45px;
+}
+
+.secondSection{
+    background-image: url(/assets/background1.jpg);
+    height: 550px;
+    width: 500px;
+    padding-top: 175px;
+    padding-left: 95px;
+    z-index: 3;
+    border-radius: 3%;
+    box-shadow: 0px 15px 8px grey;
+}
+
+.secondSection>h1{
+    color: #fff;
+    padding-left: 2rem;
+}
+
+.secondSection>p{
+    color: #fff;
+    font-size: x-large;
+    font-weight: 450;
+}
+
+.button2{
+    margin-top: 3.5rem;
+    background-color: rgba(75, 52, 87, 0.534);
+    margin-left: 50px;
+    box-shadow: 0px 2px 5px #000 ;
+    width: 200px;
+    height: 45px;
+    color: white;
+}
